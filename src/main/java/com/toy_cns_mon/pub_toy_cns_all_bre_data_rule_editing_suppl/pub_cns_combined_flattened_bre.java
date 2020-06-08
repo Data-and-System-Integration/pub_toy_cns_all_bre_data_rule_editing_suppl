@@ -1008,7 +1008,7 @@ public class pub_cns_combined_flattened_bre implements java.io.Serializable
 	private java.lang.String data_flat_bus_dim_09__dim_levels__level_7;
 	private java.lang.String data_flat_bus_dim_09__dim_levels__level_8;
 	private java.lang.String data_flat_bus_dim_09__dim_levels__level_9;
-	private java.util.List<com.toy_cns_mon.pub_toy_cns_all_bre_data_rule_editing_suppldata_bus_dim> data_bus_dim;
+	private java.util.List<com.toy_cns_mon.pub_toy_cns_all_bre_data_rule_editing_suppl.data_bus_dim> data_bus_dim;
 	private java.lang.String data_grid_01_count;
 	private java.lang.String data_grid_01__attr_01;
 	private java.lang.String data_grid_01__attr_02;
@@ -1019,7 +1019,7 @@ public class pub_cns_combined_flattened_bre implements java.io.Serializable
 	private java.util.List<java.lang.String> data_user_defined_fields  = new ArrayList<java.lang.String>();
 	private java.lang.String data_user_defined_multi_count;
 	private java.lang.String string_data_user_defined_multi_count;
-	private java.util.List<com.toy_cns_mon.pub_toy_cns_all_bre_data_rule_editing_suppldata_user_defined_multi> data_user_defined_multi;
+	private java.util.List<com.toy_cns_mon.pub_toy_cns_all_bre_data_rule_editing_suppl.data_user_defined_multi> data_user_defined_multi;
 	private java.util.List<java.lang.String> data_raw_fields  = new ArrayList<java.lang.String>();
 	private java.lang.String data_cns_date_values_0;
 	private java.lang.String data_cns_date_values_1;
@@ -1787,7 +1787,7 @@ public class pub_cns_combined_flattened_bre implements java.io.Serializable
 	private java.lang.String panelist_flat_bus_dim_09__dim_levels__level_7;
 	private java.lang.String panelist_flat_bus_dim_09__dim_levels__level_8;
 	private java.lang.String panelist_flat_bus_dim_09__dim_levels__level_9;
-	private java.util.List<com.toy_cns_mon.pub_toy_cns_all_bre_data_rule_editing_supplpanelist_bus_dim> panelist_bus_dim;
+	private java.util.List<com.toy_cns_mon.pub_toy_cns_all_bre_data_rule_editing_suppl.panelist_bus_dim> panelist_bus_dim;
 	private java.lang.String panelist_grid_01_count;
 	private java.lang.String panelist_grid_01__attr_01;
 	private java.lang.String panelist_grid_01__attr_02;
@@ -1798,7 +1798,7 @@ public class pub_cns_combined_flattened_bre implements java.io.Serializable
 	private java.util.List<java.lang.String> panelist_user_defined_fields  = new ArrayList<java.lang.String>();
 	private java.lang.String panelist_user_defined_multi_count;
 	private java.lang.String string_panelist_user_defined_multi_count;
-	private java.util.List<com.toy_cns_mon.pub_toy_cns_all_bre_data_rule_editing_supplpanelist_user_defined_multi> panelist_user_defined_multi;
+	private java.util.List<com.toy_cns_mon.pub_toy_cns_all_bre_data_rule_editing_suppl.panelist_user_defined_multi> panelist_user_defined_multi;
 	private java.util.List<java.lang.String> panelist_raw_fields  = new ArrayList<java.lang.String>();
 	private java.lang.String panelist_cns_date_values_0;
 	private java.lang.String panelist_cns_date_values_1;
@@ -11792,12 +11792,12 @@ public class pub_cns_combined_flattened_bre implements java.io.Serializable
 		 this.data_flat_bus_dim_09__dim_levels__level_9 = data_flat_bus_dim_09__dim_levels__level_9;
 	}
 
-	public java.util.List<com.toy_cns_mon.pub_toy_cns_all_bre_data_rule_editing_suppldata_bus_dim> getData_bus_dim()
+	public java.util.List<com.toy_cns_mon.pub_toy_cns_all_bre_data_rule_editing_suppl.data_bus_dim> getData_bus_dim()
 	{
 		return this.data_bus_dim;
 	}
 
-	public void setData_bus_dim(java.util.List<com.toy_cns_mon.pub_toy_cns_all_bre_data_rule_editing_suppldata_bus_dim> data_bus_dim)
+	public void setData_bus_dim(java.util.List<com.toy_cns_mon.pub_toy_cns_all_bre_data_rule_editing_suppl.data_bus_dim> data_bus_dim)
 	{
 		 this.data_bus_dim = data_bus_dim;
 	}
@@ -11902,12 +11902,12 @@ public class pub_cns_combined_flattened_bre implements java.io.Serializable
 		 this.string_data_user_defined_multi_count = string_data_user_defined_multi_count;
 	}
 
-	public java.util.List<com.toy_cns_mon.pub_toy_cns_all_bre_data_rule_editing_suppldata_user_defined_multi> getData_user_defined_multi()
+	public java.util.List<com.toy_cns_mon.pub_toy_cns_all_bre_data_rule_editing_suppl.data_user_defined_multi> getData_user_defined_multi()
 	{
 		return this.data_user_defined_multi;
 	}
 
-	public void setData_user_defined_multi(java.util.List<com.toy_cns_mon.pub_toy_cns_all_bre_data_rule_editing_suppldata_user_defined_multi> data_user_defined_multi)
+	public void setData_user_defined_multi(java.util.List<com.toy_cns_mon.pub_toy_cns_all_bre_data_rule_editing_suppl.data_user_defined_multi> data_user_defined_multi)
 	{
 		 this.data_user_defined_multi = data_user_defined_multi;
 	}
@@ -19582,12 +19582,12 @@ public class pub_cns_combined_flattened_bre implements java.io.Serializable
 		 this.panelist_flat_bus_dim_09__dim_levels__level_9 = panelist_flat_bus_dim_09__dim_levels__level_9;
 	}
 
-	public java.util.List<com.toy_cns_mon.pub_toy_cns_all_bre_data_rule_editing_supplpanelist_bus_dim> getPanelist_bus_dim()
+	public java.util.List<com.toy_cns_mon.pub_toy_cns_all_bre_data_rule_editing_suppl.panelist_bus_dim> getPanelist_bus_dim()
 	{
 		return this.panelist_bus_dim;
 	}
 
-	public void setPanelist_bus_dim(java.util.List<com.toy_cns_mon.pub_toy_cns_all_bre_data_rule_editing_supplpanelist_bus_dim> panelist_bus_dim)
+	public void setPanelist_bus_dim(java.util.List<com.toy_cns_mon.pub_toy_cns_all_bre_data_rule_editing_suppl.panelist_bus_dim> panelist_bus_dim)
 	{
 		 this.panelist_bus_dim = panelist_bus_dim;
 	}
@@ -19692,12 +19692,12 @@ public class pub_cns_combined_flattened_bre implements java.io.Serializable
 		 this.string_panelist_user_defined_multi_count = string_panelist_user_defined_multi_count;
 	}
 
-	public java.util.List<com.toy_cns_mon.pub_toy_cns_all_bre_data_rule_editing_supplpanelist_user_defined_multi> getPanelist_user_defined_multi()
+	public java.util.List<com.toy_cns_mon.pub_toy_cns_all_bre_data_rule_editing_suppl.panelist_user_defined_multi> getPanelist_user_defined_multi()
 	{
 		return this.panelist_user_defined_multi;
 	}
 
-	public void setPanelist_user_defined_multi(java.util.List<com.toy_cns_mon.pub_toy_cns_all_bre_data_rule_editing_supplpanelist_user_defined_multi> panelist_user_defined_multi)
+	public void setPanelist_user_defined_multi(java.util.List<com.toy_cns_mon.pub_toy_cns_all_bre_data_rule_editing_suppl.panelist_user_defined_multi> panelist_user_defined_multi)
 	{
 		 this.panelist_user_defined_multi = panelist_user_defined_multi;
 	}
