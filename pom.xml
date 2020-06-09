@@ -51,6 +51,12 @@
       <version>20</version>
       <scope>compile</scope>
     </dependency>
+    <dependency>
+      <groupId>enum_files</groupId>
+      <artifactId>enum_files</artifactId>
+      <version>1</version>
+      <scope>compile</scope>
+    </dependency>
   </dependencies>
   <build>
     <plugins>
