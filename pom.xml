@@ -45,6 +45,12 @@
       <version>7.27.0.Final</version>
       <scope>provided</scope>
     </dependency>
+    <dependency>
+      <groupId>gen_enum</groupId>
+      <artifactId>gen_enum</artifactId>
+      <version>1</version>
+      <scope>compile</scope>
+    </dependency>
   </dependencies>
   <build>
     <plugins>
