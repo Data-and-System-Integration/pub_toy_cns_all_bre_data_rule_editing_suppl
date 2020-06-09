@@ -45,6 +45,12 @@
       <version>7.27.0.Final</version>
       <scope>provided</scope>
     </dependency>
+    <dependency>
+      <groupId>file_read</groupId>
+      <artifactId>file_read</artifactId>
+      <version>V1</version>
+      <scope>compile</scope>
+    </dependency>
   </dependencies>
   <build>
     <plugins>
