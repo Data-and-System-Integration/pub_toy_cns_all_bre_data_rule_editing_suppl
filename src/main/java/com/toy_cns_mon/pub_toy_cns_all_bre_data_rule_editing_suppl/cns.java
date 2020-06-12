@@ -6,12 +6,24 @@ package com.toy_cns_mon.pub_toy_cns_all_bre_data_rule_editing_suppl;
 
 public class cns implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public cns() {
-    }
+	@org.kie.api.definition.type.Label(value = "Panelist unique identifier")
+	private java.math.BigDecimal panelist_id;
 
+	public cns() {
+	}
 
+	public java.math.BigDecimal getPanelist_id() {
+		return this.panelist_id;
+	}
 
+	public void setPanelist_id(java.math.BigDecimal panelist_id) {
+		this.panelist_id = panelist_id;
+	}
+
+	public cns(java.math.BigDecimal panelist_id) {
+		this.panelist_id = panelist_id;
+	}
 
 }
