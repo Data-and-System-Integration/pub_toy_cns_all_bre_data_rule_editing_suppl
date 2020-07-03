@@ -96,7 +96,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>data.data_user_age &gt; 10</valueString>
+        <valueString>data.data_user_age == &quot;abc&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -119,7 +119,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>data.data_user_age == 10</valueString>
+        <valueString>data.data_user_age == &quot;pqr&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
