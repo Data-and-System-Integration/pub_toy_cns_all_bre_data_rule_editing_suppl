@@ -6,7 +6,7 @@
   <artifactId>pub_toy_cns_all_bre_data_rule_editing_suppl</artifactId>
   <version>1.0.0-SNAPSHOT</version>
   <packaging>kjar</packaging>
-  <name>pub_toy_cns_all_bre_data_rule_editing_suppl</name>
+  <name>pub_toy_cns_all_bre_data_rule_editing_suppl_BKP</name>
   <description></description>
   <dependencies>
     <dependency>
